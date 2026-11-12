@@ -147,3 +147,17 @@ section{padding:84px 0}
  .cgrid{grid-template-columns:1fr}
  .map iframe{height:300px}
 }
+/* merch */
+.merch-hero{padding:80px 0 70px}
+.merch-hero h1{font-size:clamp(44px,6vw,68px)}
+.soonpill{display:inline-block;margin-top:10px;font-family:Montserrat,sans-serif;font-size:12px;letter-spacing:.2em;text-transform:uppercase;color:var(--ink);background:var(--sand);padding:10px 20px;border-radius:30px}
+.products{display:grid;grid-template-columns:repeat(3,1fr);gap:28px}
+.product{background:#fff;border:1px solid rgba(79,143,138,.3);border-radius:16px;padding:26px 26px 30px;text-align:center;display:flex;flex-direction:column;box-shadow:0 10px 30px rgba(42,56,72,.07)}
+.mock{background:linear-gradient(180deg,#eef4f3,#e2ecea);border-radius:12px;padding:22px;margin-bottom:20px}
+.mock svg{width:100%;height:auto;max-height:300px;filter:drop-shadow(0 10px 14px rgba(42,56,72,.18))}
+.product h2{font-size:32px}
+.product p{margin:8px 0 0;color:#4a5a69}
+.product .price{font-family:Montserrat,sans-serif;font-size:12px;letter-spacing:.18em;text-transform:uppercase;color:var(--teal);margin:14px 0 18px}
+.product .btn{margin-top:auto}
+.nav nav a.current{color:var(--sea)}
+@media (max-width:900px){.products{grid-template-columns:1fr;max-width:440px;margin:0 auto}}
