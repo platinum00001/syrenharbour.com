@@ -58,9 +58,8 @@ section{padding:84px 0}
 .food{background:#fff}
 .food-grid{display:grid;grid-template-columns:1fr 1fr;gap:26px;margin-top:20px}
 .food-grid article{background:var(--cream);border:1px solid rgba(79,143,138,.3);border-radius:14px;padding:30px 32px}
-.food-grid article.soups{grid-column:1/-1;display:grid;grid-template-columns:1.2fr 1fr;gap:34px;align-items:center}
-.duo{display:grid;grid-template-columns:1fr 1fr;gap:14px}
-.duo img{border-radius:12px;aspect-ratio:1;object-fit:cover;width:100%;box-shadow:0 0 0 4px #fff,0 0 0 5.5px var(--teal)}
+.food-grid article.soups{grid-column:1/-1;text-align:center}
+.food-grid article.soups svg{margin:0 auto 10px;display:block}
 .food-grid article.txt svg{width:34px;height:34px;color:var(--teal);margin-bottom:10px}
 .food-grid h3{font-size:30px;color:var(--slate);margin-bottom:10px}
 .food-grid p{margin:0}
@@ -88,9 +87,9 @@ section{padding:84px 0}
 .mains .main{padding:18px 0;border-bottom:1px solid rgba(79,143,138,.2);margin:0}
 .mains .main:last-child{border:0}
 /* pizza */
-.pizza-grid{display:grid;grid-template-columns:1fr 1fr;gap:48px;align-items:center;margin-top:10px}
+.pizza-grid{display:grid;grid-template-columns:.85fr 1fr;gap:48px;align-items:center;margin-top:10px}
 .pzphoto{margin:0;border-radius:16px;overflow:hidden;box-shadow:0 0 0 5px var(--cream),0 0 0 7px var(--sand),0 20px 50px rgba(0,0,0,.45)}
-.pzphoto img{width:100%;aspect-ratio:1;object-fit:cover}
+.pzphoto img{width:100%;aspect-ratio:4/5;object-fit:cover}
 .pz .item{background:rgba(255,255,255,.05);border:1px solid rgba(201,185,148,.35);border-radius:12px;padding:20px 24px}
 .dark .nm{color:var(--cream)}.dark .dots{border-color:rgba(201,185,148,.5)}.dark .pr,.dark .op{color:var(--sea)}.dark .item li{color:#d8dde2}.dark .item li::before{background:var(--sea)}
 .cater{background:var(--cream);color:var(--ink);border-radius:14px;padding:24px 26px;text-align:center;margin-top:6px}
@@ -133,7 +132,8 @@ section{padding:84px 0}
  section{padding:60px 0}
  .hero{padding:40px 0 56px}
  .hero-grid,.pizza-grid,.visit-grid{grid-template-columns:1fr;gap:36px}
- .food-grid,.food-grid article.soups{grid-template-columns:1fr}
+ .food-grid{grid-template-columns:1fr}
+ .pzphoto{max-width:460px;margin:0 auto}
  .food-grid article{padding:24px 22px}
  .cols2{column-count:1}
  .cgrid{grid-template-columns:1fr}

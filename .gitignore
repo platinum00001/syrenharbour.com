@@ -3,3 +3,4 @@ __pycache__/
 build_site.py
 prep_images.py
 shoot.sh
+src-photos/
